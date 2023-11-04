@@ -16,6 +16,12 @@ An M5Stack library for scrolling text.
 <br>
 <br>
 
+<h2>🚀 Features</h2>
+<p>Scroll from left to right on the lcd.</p>
+<br>
+<img src="https://github.com/yushin-ito/M5TextScroll/assets/75526539/7a1514ee-3172-422f-889b-651a5821e1dd" />
+<br>
+
 <h2>📦 Installation</h2>
 <a href="https://open.vscode.dev/yushin-ito/M5TextScroll">
   <img src="https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&labelColor=2c2c32&color=007acc&logoColor=007acc">
@@ -57,9 +63,9 @@ void loop() {
 <br>
 
 <h2>👀 Author</h2>
-Yushin Ito
+<a href="https://github.com/yushin-ito">Yushin Ito</a>
 
 <br>
 
 <h2>📜 License</h2>
-<a href="https://github.com/yushin-ito/M5TextScroll/blob/main/LICENSE">MIT License<a>
+<a href="https://github.com/yushin-ito/M5TextScroll/blob/main/LICENSE">MIT License</a>
