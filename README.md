@@ -46,7 +46,7 @@ An M5Stack library for scrolling text.
 > **Warning**
 > This library has been tested only with M5Stack and M5StickC-PLUS.
 
-```
+```c
 #include <M5Unified.h>
 #include <M5TextScroll.h>
 
