@@ -64,7 +64,7 @@ void loop() {
 }
 ```
 
-<p>You can also read the <a href="https://github.com/yushin-ito/M5TextScroll/blob/main/doc/BASIC">module doc</a> for a list of supported calls.</p>
+<p>You can also read the <a href="https://github.com/yushin-ito/M5TextScroll/blob/main/doc/BASIC.md">module doc</a> for a list of supported calls.</p>
 
 <br>
 
