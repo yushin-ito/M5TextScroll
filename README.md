@@ -14,6 +14,7 @@
 An M5Stack library for scrolling text.
 
 <br>
+<br>
 
 <h2>📦 Installation</h2>
 <a href="https://open.vscode.dev/yushin-ito/M5TextScroll">
@@ -30,8 +31,8 @@ An M5Stack library for scrolling text.
 
 <h2>🔧 Usage</h2>
 
-**Warning**
-This library has been tested only with M5Stack and M5StickC-PLUS.
+> **Warning**
+> This library has been tested only with M5Stack and M5StickC-PLUS.
 
 ```
 #include <M5Unified.h>
@@ -55,14 +56,8 @@ void loop() {
 
 <br>
 
-<h2>🚀 Features</h2>
-
-<br>
-
 <h2>👀 Author</h2>
-<ul>
-  <li>Yushin Ito</li>
-</ul>
+Yushin Ito
 
 <br>
 
