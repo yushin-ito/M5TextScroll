@@ -1,4 +1,4 @@
-<h1>M5Bell</h1>
+<h1>M5TextScroll</h1>
 
 <div align="left">
   <img src="https://img.shields.io/badge/version-0.0.1-red.svg">
@@ -19,7 +19,10 @@ An M5Stack library for scrolling text.
 <h2>🚀 Features</h2>
 <p>Scroll from left to right on the lcd.</p>
 <br>
-<img src="https://github.com/yushin-ito/M5TextScroll/assets/75526539/7a1514ee-3172-422f-889b-651a5821e1dd" />
+<div align="center">
+  <img src="https://github.com/yushin-ito/M5TextScroll/assets/75526539/7a1514ee-3172-422f-889b-651a5821e1dd" width="80%"/>
+</div>
+
 <br>
 
 <h2>📦 Installation</h2>
@@ -65,6 +68,7 @@ void loop() {
 <h2>👀 Author</h2>
 <a href="https://github.com/yushin-ito">Yushin Ito</a>
 
+<br>
 <br>
 
 <h2>📜 License</h2>
