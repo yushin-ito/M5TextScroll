@@ -4,7 +4,7 @@
   - [Instance Basics](#instance-basics)
     - [Create a instance](#create-a-instance)
   - [Functions Basic](#functions-basic)
-    - [ts.Cusor(x, y, scroll_pixel) => void](#tssetcusorx-y-scroll_pixel--void)
+    - [ts.setCusor(x, y, scroll_pixel) => void](#tssetcusorx-y-scroll_pixel--void)
     - [ts.setTextFont(font) => void](#tssettextfontfont--void)
     - [ts.setBgColor(color) => void](#tssetbgcolorcolor--void)
     - [ts.setTextColor(color) => void](#tssettextcolorcolor--void)
@@ -38,6 +38,7 @@ Call the fuctions using the created instance.
 ### ts.setCusor(x, y, scroll_pixel) => void
 
 Set position and speed of text scroll box.
+
 Kind: instance method of `M5TextScroll`
 
 |    Param     |  Type   |
@@ -49,6 +50,7 @@ Kind: instance method of `M5TextScroll`
 ### ts.setTextFont(font) => void
 
 Set font of text.
+
 Kind: instance method of `M5TextScroll`
 
 | Param |     Type      |
@@ -58,6 +60,7 @@ Kind: instance method of `M5TextScroll`
 ### ts.setBgColor(color) => void
 
 Set bg color of text scroll box.
+
 Kind: instance method of `M5TextScroll`
 
 | Param |   Type   |
@@ -67,6 +70,7 @@ Kind: instance method of `M5TextScroll`
 ### ts.setTextColor(color) => void
 
 Set bg color of text.
+
 Kind: instance method of `M5TextScroll`
 
 | Param |   Type   |
@@ -76,6 +80,7 @@ Kind: instance method of `M5TextScroll`
 ### ts.setText(text) => void
 
 Set scrolling text.
+
 Kind: instance method of `M5TextScroll`
 
 | Param |     Type     |
@@ -85,9 +90,11 @@ Kind: instance method of `M5TextScroll`
 ### ts.showTextScroll() => void
 
 Show text scroll.
+
 Kind: instance method of `M5TextScroll`
 
 ### ts.getScrollCount() => uint8_t
 
 Get scrolling count.
+
 Kind: instance method of `M5TextScroll`

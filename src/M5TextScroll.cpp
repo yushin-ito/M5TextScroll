@@ -1,7 +1,7 @@
 #include "M5TextScroll.h"
 
 M5TextScroll::M5TextScroll() {
-    canvas = new M5Canvas(&M5.Lcd);
+    canvas = new M5Canvas(&M5.Display);
     _x = 0;
     _y = 0;
     _scroll_pixel = 1;

@@ -38,6 +38,7 @@ An M5Stack library for scrolling text.
   <li>Initialize your Platform IO project</li>
   <p><pre><code>platformio init -d . -b m5stack-core-esp32</code></pre></p>
   <li>Install the library and its dependency</li>
+  <p><pre><code>platformio lib install M5TextScroll</code></pre></p>
   <p><pre><code>platformio lib install M5Unified</code></pre></p>
 </ol>
 
