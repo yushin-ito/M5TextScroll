@@ -17,7 +17,10 @@ An M5Stack library for scrolling text.
 <br>
 
 <h2>🚀 Features</h2>
-<p>Scroll from left to right on the lcd.</p>
+<ul>
+  <li>Scroll from left to right on the lcd</li>
+  <li>Customize color and speed</li>
+</ul>
 <br>
 <div align="center">
   <img src="https://github.com/yushin-ito/M5TextScroll/assets/75526539/7a1514ee-3172-422f-889b-651a5821e1dd" width="80%"/>
