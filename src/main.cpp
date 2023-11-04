@@ -6,7 +6,6 @@ M5TextScroll ts;
 void setup() {
     auto cfg = M5.config();
     M5.begin(cfg);
-    M5.Display.setRotation(1);
     ts.setCusor(0, M5.Display.height() / 2, 1);
     ts.setText("Hello World!");
 }

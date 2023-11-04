@@ -30,6 +30,9 @@ An M5Stack library for scrolling text.
 
 <h2>🔧 Usage</h2>
 
+**Warning**
+This library has been tested only with M5Stack and M5StickC-PLUS.
+
 ```
 #include <M5Unified.h>
 #include <M5TextScroll.h>
@@ -48,7 +51,7 @@ void loop() {
 }
 ```
 
-<p>You can also read the <a href="https://github.com/yushin-ito/M5TextScroll/blob/main/doc">module doc</a> for a list of supported calls.</p>
+<p>You can also read the <a href="https://github.com/yushin-ito/M5TextScroll/blob/main/doc/BASIC">module doc</a> for a list of supported calls.</p>
 
 <br>
 
