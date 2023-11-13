@@ -36,10 +36,18 @@ An M5Stack library for scrolling text.
 <br>
 <ol>
   <li>Initialize your Platform IO project</li>
-  <p><pre><code>platformio init -d . -b m5stack-core-esp32</code></pre></p>
+
+```powershell
+platformio init -d . -b m5stack-core-esp32
+```
+
   <li>Install the library and its dependency</li>
-  <p><pre><code>platformio lib install M5TextScroll</code></pre></p>
-  <p><pre><code>platformio lib install M5Unified</code></pre></p>
+
+```powershell
+platformio lib install M5Clock
+platformio lib install M5Unified
+```
+
 </ol>
 
 <h2>🔧 Usage</h2>
@@ -49,7 +57,7 @@ An M5Stack library for scrolling text.
 
 <br>
 
-```c
+```c++
 #include <M5Unified.h>
 #include <M5TextScroll.h>
 
@@ -58,12 +66,28 @@ M5TextScroll ts;
 void setup() {
     auto cfg = M5.config();
     M5.begin(cfg);
-    ts.setCusor(0, M5.Display.height() / 2, 1);
+
+    ts.init(0, 0);
     ts.setText("Hello World!");
 }
 
 void loop() {
-    ts.showTextScroll();
+    M5.update();
+
+    if (M5.BtnA.wasPressed()) {
+        if (ts.isDrawing()) {
+            ts.stop();
+        }
+        else {
+            ts.start();
+        }
+    }
+
+    if (M5.BtnB.wasPressed()) {
+        ts.setText("BtnB was pressed!");
+    }
+
+    delay(100);
 }
 ```
 

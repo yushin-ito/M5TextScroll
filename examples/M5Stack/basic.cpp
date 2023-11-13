@@ -6,10 +6,26 @@ M5TextScroll ts;
 void setup() {
     auto cfg = M5.config();
     M5.begin(cfg);
-    ts.setCusor(0, M5.Display.height() / 2, 1);
+
+    ts.init(0, 0);
     ts.setText("Hello World!");
 }
 
 void loop() {
-    ts.showTextScroll();
+    M5.update();
+
+    if (M5.BtnA.wasPressed()) {
+        if (ts.isDrawing()) {
+            ts.stop();
+        }
+        else {
+            ts.start();
+        }
+    }
+
+    if (M5.BtnB.wasPressed()) {
+        ts.setText("BtnB was pressed!");
+    }
+
+    delay(100);
 }
