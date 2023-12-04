@@ -1,6 +1,6 @@
 #include "M5TextScroll.h"
 
-TaskHandle_t drawTaskHandle;
+static TaskHandle_t drawTaskHandle;
 
 Context::Context(M5TextScroll* ts) {
     _ts = ts;
@@ -10,7 +10,7 @@ M5TextScroll* Context::getTextScroll() {
     return _ts;
 }
 
-void drawLoop(void* args) {
+static void drawLoop(void* args) {
     Context* ctx = reinterpret_cast<Context*>(args);
     M5TextScroll* ts = ctx->getTextScroll();
 

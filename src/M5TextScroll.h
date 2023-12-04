@@ -1,3 +1,5 @@
+#ifndef M5TEXTSCROLL_H
+#define M5TEXTSCROLL_H
 #include <M5Unified.h>
 
 class M5TextScroll {
@@ -37,6 +39,11 @@ public:
   uint8_t getScrollCount();
 };
 
+#endif // M5TEXTSCROLL_H
+
+#ifndef CONTEXT_H
+#define CONTEXT_H
+
 class Context {
 private:
   M5TextScroll* _ts;
@@ -45,3 +52,5 @@ public:
   Context(M5TextScroll* ts);
   M5TextScroll* getTextScroll();
 };
+
+#endif // CONTEXT_H
